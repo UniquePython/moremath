@@ -1,4 +1,4 @@
-__version__ = '0.1.2'
+__version__ = '0.2.2'
 
 from .algebra import exponentiation, logarithm, sieve_of_eratosthenes, solve_cubic, solve_quadratic, prime_factors
 from .statistics import mean, median, mode, standard_deviation, variance
