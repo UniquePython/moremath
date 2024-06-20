@@ -1,6 +1,7 @@
 [tool.poetry.dependencies]
 python = "^3.9"
 numpy = "^1.22.0"
+
 [project]
 name = "moremath"
 version = "0.2.2"
@@ -15,3 +16,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[tool.poetry]
+repository = "https://github.com/UniquePython/moremath"
