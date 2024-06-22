@@ -4,7 +4,7 @@ numpy = "^1.22.0"
 
 [project]
 name = "moremath"
-version = "0.2.2"
+version = "1.2.2"
 authors = [
   { name="Ananyo Bhattacharya", email="ananyobhattacharya10@gmail.com" },
 ]
@@ -16,6 +16,3 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
-[tool.poetry]
-repository = "https://github.com/UniquePython/moremath"

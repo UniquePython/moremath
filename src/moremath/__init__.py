@@ -1,12 +1,7 @@
-__version__ = '0.2.2'
+__version__ = '1.2.2'
 
-from .algebra import exponentiation, logarithm, sieve_of_eratosthenes, prime_factors
-from .statistics import mean, median, mode, standard_deviation, variance
-from .arithmetic import add, subtract, multiply, divide, factorial
-from .geometry import (
-    square_perimeter, square_area,
-    rectangle_perimeter, rectangle_area,
-    circle_perimeter, circle_area,
-    cube_volume, cube_surface_area,
-    sphere_volume, sphere_surface_area, validate_positive_number
-)
+from .algebra import Algebra
+from .statistics import Statistics
+from .arithmetic import MathOperations
+from .geometry import Geometry
+from .prime import PrimeUtilities
